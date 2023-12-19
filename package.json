@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/heebo": "^5.0.16",
+    "@fontsource/open-sans": "^5.0.20",
     "vue": "^3.3.11"
   },
   "devDependencies": {
