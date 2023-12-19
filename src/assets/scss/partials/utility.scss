@@ -1,0 +1,49 @@
+@use "./variables" as *;
+//!FLEX
+.flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: around;
+}
+.align-items-center {
+  align-items: center;
+}
+//!TEXT
+.text-align-center {
+  text-align: center;
+}
+.fw-b {
+  font-weight: bold;
+}
+.grey {
+  color: $grey;
+}
+.text-white {
+  color: $text-white;
+}
+.text-black {
+  color: $text-black;
+}
+
+.text-blue {
+  color: $text-blue;
+}
+.text-red {
+  color: $text-red;
+}
+//!POSITION
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+//!CONTAINER
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}

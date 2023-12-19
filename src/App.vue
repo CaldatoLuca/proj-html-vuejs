@@ -1,13 +1,7 @@
 <script>
-import AppTemplate from "./components/AppTemplate.vue";
-
-export default {
-  components: {
-    AppTemplate,
-  },
-};
+export default {};
 </script>
 
 <template>
-  <AppTemplate />
+  <h1 class="text-white">Scaffolding</h1>
 </template>
