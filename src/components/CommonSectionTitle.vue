@@ -23,6 +23,6 @@ export default {
 <style scoped lang="scss">
 .first-title,
 .second-title {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 </style>

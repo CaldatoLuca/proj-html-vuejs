@@ -44,7 +44,7 @@ export default {
 
 <template>
   <section class="our-services">
-    <div class="container text-align-center">
+    <div class="container text-align-center flex flex-column">
       <!-- *title section -->
       <CommonSectionTitle :text="sectionTitle" />
 
@@ -53,14 +53,19 @@ export default {
         <MainSection1Card v-for="card in cards" :card="card" />
       </div>
     </div>
+
+    <!-- *button -->
+    <div class="text-align-center">
+      <button class="btn btn-red">View All Services</button>
+    </div>
   </section>
 </template>
 
 <style scoped lang="scss">
 .our-services {
-  padding: 80px 0 100px 0;
+  padding: 60px 0 80px 0;
   .our-services-cards {
-    margin: 160px 0 215px 0;
+    margin: 100px 0 150px 0;
     .card {
       width: 15%;
     }

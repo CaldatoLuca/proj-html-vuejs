@@ -15,9 +15,9 @@ export default {
   </div>
 
   <!-- blue text -->
-  <div class="text-blue">
+  <p class="text-blue">
     {{ text.textBlue }}
-  </div>
+  </p>
 
   <!-- buttons -->
   <div class="buttons">
