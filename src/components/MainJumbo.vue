@@ -1,5 +1,23 @@
 <script>
-export default {};
+import CommonTitleTextBtns from "./CommonTitleTextBtns.vue";
+export default {
+  data() {
+    return {
+      commonTitleTextBts: {
+        title1: "Business Planning",
+        title2: "Digital Technology",
+        title3: "Modern Solution !",
+        textBlue:
+          " When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface.",
+        btn1: "Try Now",
+        btn2: "Explore More",
+      },
+    };
+  },
+  components: {
+    CommonTitleTextBtns,
+  },
+};
 </script>
 
 <template>
@@ -8,11 +26,7 @@ export default {};
     <div class="container flex justify-content-between align-items-center">
       <!-- *left part -->
       <div class="left-jumbo">
-        <div class="title text-white">
-          <div class="fw-b">Business Planning</div>
-          <div class="open-sans">Digital Technology</div>
-          <div class="fw-b">Modern Solution</div>
-        </div>
+        <CommonTitleTextBtns :text="commonTitleTextBts" />
       </div>
 
       <!-- *right part image -->
@@ -21,7 +35,6 @@ export default {};
       </div>
     </div>
   </section>
-  <h1>ciao</h1>
 </template>
 
 <style scoped lang="scss">
@@ -30,7 +43,13 @@ export default {};
   padding: 15px 0 190px 0;
   background: linear-gradient(0deg, $bg-blue-dark 0%, $bg-blue-light 100%);
   .left-jumbo {
-    width: 30%;
+    width: 27%;
+    :deep(.title) {
+      margin-bottom: 60px;
+    }
+    :deep(.text-blue) {
+      margin-bottom: 70px;
+    }
   }
   .right-jumbo {
     width: 50%;
