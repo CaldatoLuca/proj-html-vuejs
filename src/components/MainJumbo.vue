@@ -6,7 +6,16 @@ export default {};
   <!-- !jumbotron -->
   <section class="jumbo">
     <div class="container flex justify-content-between align-items-center">
-      <div class="left-jumbo">left</div>
+      <!-- *left part -->
+      <div class="left-jumbo">
+        <div class="title text-white">
+          <div class="fw-b">Business Planning</div>
+          <div class="open-sans">Digital Technology</div>
+          <div class="fw-b">Modern Solution</div>
+        </div>
+      </div>
+
+      <!-- *right part image -->
       <div class="right-jumbo">
         <img src="../assets/img/header.png" alt="Jumbo image" />
       </div>
