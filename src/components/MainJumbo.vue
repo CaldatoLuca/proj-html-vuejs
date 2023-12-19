@@ -21,7 +21,6 @@ export default {
 </script>
 
 <template>
-  <!-- !jumbotron -->
   <section class="jumbo">
     <div class="container flex justify-content-between align-items-center">
       <!-- *left part -->
