@@ -57,3 +57,18 @@
 .heebo {
   font-family: "Heebo";
 }
+//!BUTTONS
+.btn {
+  padding: 15px 30px;
+  border: none;
+  color: $text-white;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: "Heebo";
+}
+.btn-blue {
+  background: linear-gradient(90deg, $btn-blue-light 3%, $btn-blue-dark 100%);
+}
+.btn-red {
+  background: linear-gradient(90deg, $btn-red-dark 3%, $btn-red-light 100%);
+}

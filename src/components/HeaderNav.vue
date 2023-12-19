@@ -16,7 +16,7 @@ export default {};
     </ul>
 
     <!-- *button nav-->
-    <button>Sign In</button>
+    <button class="btn btn-blue">Sign In</button>
   </nav>
 </template>
 
@@ -34,5 +34,6 @@ ul {
 }
 button {
   margin-left: 50px;
+  padding: 10px 20px;
 }
 </style>

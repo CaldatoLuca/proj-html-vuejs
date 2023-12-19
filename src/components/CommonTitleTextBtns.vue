@@ -21,7 +21,13 @@ export default {
 
   <!-- buttons -->
   <div class="buttons">
-    <button>{{ text.title1 }}</button>
-    <button>Explore More</button>
+    <button class="btn btn-red">{{ text.btn1 }}</button>
+    <button class="btn btn-blue">{{ text.btn2 }}</button>
   </div>
 </template>
+
+<style scoped>
+.btn-red {
+  margin-right: 25px;
+}
+</style>
