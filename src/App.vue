@@ -1,7 +1,12 @@
 <script>
-export default {};
+import Header from "./components/Header.vue";
+export default {
+  components: {
+    Header,
+  },
+};
 </script>
 
 <template>
-  <h1 class="text-white">Scaffolding</h1>
+  <Header />
 </template>
