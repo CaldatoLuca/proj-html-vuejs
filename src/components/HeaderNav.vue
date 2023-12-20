@@ -3,7 +3,6 @@ export default {};
 </script>
 
 <template>
-  <!-- *nav -->
   <nav class="flex align-items-center">
     <!-- *link nav -->
     <ul class="flex">

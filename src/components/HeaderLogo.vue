@@ -3,7 +3,6 @@ export default {};
 </script>
 
 <template>
-  <!-- *logo -->
   <div class="logo">
     <img src="/img/white-logo-2.png" alt="Logo" />
   </div>
