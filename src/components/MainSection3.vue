@@ -33,7 +33,7 @@ export default {
         },
         {
           title: "Basket of Flower on table",
-          src: "../assets/img/portfolio5.jpg",
+          src: "../assets/img/portfolio3.jpg",
           text: "Branding Strategy",
         },
       ],
@@ -64,7 +64,7 @@ export default {
     <div class="carousel">
       <!-- carousel images -->
       <div class="images">
-        <MainSection3Card />
+        <MainSection3Card v-for="card in cards" :card="card" />
       </div>
 
       <!-- carousel dot position -->
@@ -89,6 +89,21 @@ export default {
       border-radius: 50%;
       padding: 15px;
       cursor: pointer;
+    }
+  }
+  .carousel {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+
+    .images {
+      display: block;
+      width: 100%;
+      background: white;
+
+      margin: 0;
+      white-space: nowrap;
+      margin-bottom: 100px;
     }
   }
 }
