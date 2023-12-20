@@ -9,8 +9,6 @@ export default {
         title3: "Modern Solution !",
         textBlue:
           " When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface.",
-        btn1: "Try It Now",
-        btn2: "Explore More",
       },
     };
   },

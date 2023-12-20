@@ -1,6 +1,23 @@
 <script>
+import CommonBtn from "./CommonBtn.vue";
+
 export default {
+  data() {
+    return {
+      btn1: {
+        text: "Try It Now",
+        type: "btn-red",
+      },
+      btn2: {
+        text: "Explore More",
+        type: "btn-blue",
+      },
+    };
+  },
   props: ["text"],
+  components: {
+    CommonBtn,
+  },
 };
 </script>
 
@@ -19,8 +36,8 @@ export default {
 
   <!-- buttons -->
   <div class="buttons">
-    <button class="btn btn-red">{{ text.btn1 }}</button>
-    <button class="btn btn-blue">{{ text.btn2 }}</button>
+    <CommonBtn :text="btn1.text" :type="btn1.type" />
+    <CommonBtn :text="btn2.text" :type="btn2.type" />
   </div>
 </template>
 

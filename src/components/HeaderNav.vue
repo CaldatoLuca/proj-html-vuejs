@@ -1,5 +1,18 @@
 <script>
-export default {};
+import CommonBtn from "./CommonBtn.vue";
+export default {
+  data() {
+    return {
+      btn: {
+        text: "Sign In",
+        type: "btn-blue",
+      },
+    };
+  },
+  components: {
+    CommonBtn,
+  },
+};
 </script>
 
 <template>
@@ -15,7 +28,7 @@ export default {};
     </ul>
 
     <!-- *button nav-->
-    <button class="btn btn-blue">Sign In</button>
+    <CommonBtn :text="btn.text" :type="btn.type" />
   </nav>
 </template>
 

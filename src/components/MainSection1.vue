@@ -1,6 +1,7 @@
 <script>
 import CommonSectionTitle from "./CommonSectionTitle.vue";
 import MainSection1Card from "./MainSection1Card.vue";
+import CommonBtn from "./CommonBtn.vue";
 export default {
   data() {
     return {
@@ -33,11 +34,16 @@ export default {
           text: "When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper",
         },
       ],
+      btn: {
+        text: "View All Services",
+        type: "btn-red",
+      },
     };
   },
   components: {
     CommonSectionTitle,
     MainSection1Card,
+    CommonBtn,
   },
 };
 </script>
@@ -56,7 +62,7 @@ export default {
 
     <!-- *button -->
     <div class="text-align-center">
-      <button class="btn btn-red">View All Services</button>
+      <CommonBtn :text="btn.text" :type="btn.type" />
     </div>
   </section>
 </template>
