@@ -1,6 +1,6 @@
 <script>
 import CommonSectionTitle from "./CommonSectionTitle.vue";
-import MainSection1Card from "./MainSection1Card.vue";
+import MainOurServicesCard from "./MainOurServicesCard.vue";
 import CommonBtn from "./CommonBtn.vue";
 export default {
   data() {
@@ -42,7 +42,7 @@ export default {
   },
   components: {
     CommonSectionTitle,
-    MainSection1Card,
+    MainOurServicesCard,
     CommonBtn,
   },
 };
@@ -56,7 +56,7 @@ export default {
 
       <!-- *Cards -->
       <div class="our-services-cards flex justify-content-around">
-        <MainSection1Card v-for="card in cards" :card="card" />
+        <MainOurServicesCard v-for="card in cards" :card="card" />
       </div>
     </div>
 

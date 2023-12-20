@@ -1,14 +1,14 @@
 <script>
 import MainJumbo from "./MainJumbo.vue";
-import MainSection1 from "./MainSection1.vue";
-import MainSection2 from "./MainSection2.vue";
-import MainSection3 from "./MainSection3.vue";
+import MainOurServices from "./MainOurServices.vue";
+import MainStartYourProject from "./MainStartYourProject.vue";
+import MainPortfolio from "./MainPortfolio.vue";
 export default {
   components: {
     MainJumbo,
-    MainSection1,
-    MainSection2,
-    MainSection3,
+    MainOurServices,
+    MainStartYourProject,
+    MainPortfolio,
   },
 };
 </script>
@@ -20,13 +20,13 @@ export default {
     <MainJumbo />
 
     <!-- Section 1 -->
-    <MainSection1 />
+    <MainOurServices />
 
     <!-- Section 2 -->
-    <MainSection2 />
+    <MainStartYourProject />
 
     <!-- Section 3 -->
-    <MainSection3 />
+    <MainPortfolio />
   </main>
 </template>
 

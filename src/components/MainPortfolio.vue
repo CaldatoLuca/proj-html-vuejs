@@ -1,6 +1,6 @@
 <script>
 import CommonSectionTitle from "../components/CommonSectionTitle.vue";
-import MainSection3Card from "./MainSection3Card.vue";
+import MainPortfolioCard from "./MainPortfolioCard.vue";
 export default {
   data() {
     return {
@@ -41,7 +41,7 @@ export default {
   },
   components: {
     CommonSectionTitle,
-    MainSection3Card,
+    MainPortfolioCard,
   },
 };
 </script>
@@ -64,7 +64,7 @@ export default {
     <div class="carousel">
       <!-- carousel images -->
       <div class="images">
-        <MainSection3Card v-for="card in cards" :card="card" />
+        <MainPortfolioCard v-for="card in cards" :card="card" />
       </div>
 
       <!-- carousel dot position -->
