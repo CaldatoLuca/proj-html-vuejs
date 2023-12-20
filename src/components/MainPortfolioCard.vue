@@ -22,12 +22,14 @@ export default {
       <div class="fw-b">{{ card.title }}</div>
 
       <!-- card text -->
-      <div>{{ card.text }}</div>
+      <div class="text">{{ card.text }}</div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
+@use "../assets/scss/partials/variables" as *;
+
 .card {
   display: inline-block;
   width: 450px;
@@ -39,6 +41,9 @@ export default {
   }
   .card-text {
     padding: 30px;
+    .text {
+      color: $text-black;
+    }
   }
 }
 </style>

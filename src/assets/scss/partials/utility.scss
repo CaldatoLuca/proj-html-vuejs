@@ -44,6 +44,9 @@
 .text-red {
   color: $text-red;
 }
+.text-uppercase {
+  text-transform: uppercase;
+}
 //!POSITION
 .relative {
   position: relative;
@@ -80,4 +83,8 @@
 .btn-red {
   background: linear-gradient(90deg, $btn-red-dark 3%, $btn-red-light 100%);
   transition: background-color 2s ease-out;
+}
+.btn-white {
+  background: white;
+  color: $text-black;
 }
