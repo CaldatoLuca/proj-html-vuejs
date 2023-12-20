@@ -68,6 +68,7 @@ export default {
 </template>
 
 <style scoped lang="scss">
+@use "../assets/scss/partials/variables" as *;
 .our-services {
   padding: 70px 0 90px 0;
   .our-services-cards {
@@ -77,5 +78,12 @@ export default {
       width: 15%;
     }
   }
+}
+.btn-red {
+  box-shadow: 0px 0px 110px 1px $btn-red-light;
+}
+.btn-red:hover {
+  background: linear-gradient(90deg, $btn-blue-light 3%, $btn-blue-dark 100%);
+  box-shadow: 0px 0px 110px 1px $btn-blue-light;
 }
 </style>

@@ -81,9 +81,3 @@
   background: linear-gradient(90deg, $btn-red-dark 3%, $btn-red-light 100%);
   transition: background-color 2s ease-out;
 }
-.btn-blue:hover {
-  background: linear-gradient(90deg, $btn-red-dark 3%, $btn-red-light 100%);
-}
-.btn-red:hover {
-  background: linear-gradient(90deg, $btn-blue-light 3%, $btn-blue-dark 100%);
-}
