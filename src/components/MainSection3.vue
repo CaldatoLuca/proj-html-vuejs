@@ -55,8 +55,8 @@ export default {
 
       <!-- arrows -->
       <div class="arrows flex text-red">
-        <div>1</div>
-        <div>2</div>
+        <div>&larr;</div>
+        <div>&rarr;</div>
       </div>
     </div>
 
@@ -68,7 +68,9 @@ export default {
       </div>
 
       <!-- carousel dot position -->
-      <div class="dots"></div>
+      <div class="dots flex justify-content-center">
+        <div class="dot" v-for="n in cards.length"></div>
+      </div>
     </div>
   </section>
 </template>
@@ -86,9 +88,13 @@ export default {
     gap: 30px;
     div {
       border: 1px solid $text-red;
-      border-radius: 50%;
-      padding: 15px;
+      border-radius: 40px;
+      width: 50px;
+      height: 50px;
       cursor: pointer;
+      font-size: 25px;
+      text-align: center;
+      line-height: 50px;
     }
   }
   .carousel {
@@ -104,6 +110,16 @@ export default {
       margin: 0;
       white-space: nowrap;
       margin-bottom: 100px;
+    }
+    .dots {
+      gap: 10px;
+
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50px;
+        background-color: $grey;
+      }
     }
   }
 }
