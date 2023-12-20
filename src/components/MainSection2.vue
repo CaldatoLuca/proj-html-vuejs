@@ -20,15 +20,19 @@ export default {
 </script>
 
 <template>
-  <section class="start-your-project">
+  <section class="start-your-project text-white">
     <div class="container flex justify-content-around align-items-center">
       <!-- *left part -->
-      <div class="left-syp">
-        <div>immagine</div>
+      <div class="left-syp relative">
+        <img class="men-data" src="../assets/img/men-data.png" alt="Men Data" />
       </div>
 
       <!-- *right part image -->
       <div class="right-syp">
+        <!-- section title -->
+        <div class="section-title">Start Your Project</div>
+
+        <!-- section text -->
         <CommonTitleTextBtns :text="commonTitleTextBts" />
       </div>
     </div>
@@ -42,14 +46,20 @@ export default {
   background: linear-gradient(0deg, $bg-blue-dark 0%, $bg-blue-light 100%);
   .left-syp {
     width: 30%;
+    background-image: url(../assets/img/nemoodar.png);
+    background-repeat: no-repeat;
+    background-position: 160% 10%;
   }
   .right-syp {
     width: 30%;
+    .section-title {
+      margin-bottom: 40px;
+    }
     :deep(.title) {
-      margin-bottom: 55px;
+      margin-bottom: 45px;
     }
     :deep(.text-blue) {
-      margin-bottom: 55px;
+      margin-bottom: 45px;
     }
   }
 }
