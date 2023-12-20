@@ -145,8 +145,8 @@ export default {
   background: linear-gradient(
     to bottom,
     $bg-blue-dark 0%,
-    $bg-blue-light 50%,
-    white 51%,
+    $bg-blue-light 55%,
+    white 56%,
     white 100%
   );
   .section-title {

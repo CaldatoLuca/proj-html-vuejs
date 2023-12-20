@@ -18,7 +18,10 @@ export default {
     <div class="subtitle text-uppercase">{{ card.subtitle }}</div>
 
     <!-- card price -->
-    <div class="price fw-b">{{ card.price }}</div>
+    <div class="price fw-b relative">
+      <span class="dollar absolute">&#36;</span>
+      {{ card.price }}
+    </div>
 
     <!-- card price -->
     <div class="time">{{ card.time }}</div>
@@ -60,7 +63,7 @@ export default {
   }
 }
 .card-red {
-  background: linear-gradient(135deg, $btn-red-dark 45%, $btn-red-light 100%);
+  background: linear-gradient(135deg, $btn-red-dark 5%, $btn-red-light 100%);
   .number-bg {
     color: $grey;
   }
@@ -85,6 +88,11 @@ export default {
   .price {
     font-size: 80px;
     margin-bottom: 40px;
+    .dollar {
+      font-size: 15px;
+      top: 15px;
+      left: 38%;
+    }
   }
   .time {
     margin-bottom: 60px;
@@ -123,6 +131,6 @@ export default {
 
   font-size: 350px;
   z-index: 100;
-  opacity: 0.5;
+  opacity: 0.15;
 }
 </style>
