@@ -4,6 +4,7 @@ import MainOurServices from "./MainOurServices.vue";
 import MainStartYourProject from "./MainStartYourProject.vue";
 import MainPortfolio from "./MainPortfolio.vue";
 import MainPriceList from "./MainPriceList.vue";
+import MainBlog from "./MainBlog.vue";
 export default {
   components: {
     MainJumbo,
@@ -11,6 +12,7 @@ export default {
     MainStartYourProject,
     MainPortfolio,
     MainPriceList,
+    MainBlog,
   },
 };
 </script>
@@ -32,6 +34,9 @@ export default {
 
     <!-- Section 4 -->
     <MainPriceList />
+
+    <!-- Section 5 -->
+    <MainBlog />
   </main>
 </template>
 
