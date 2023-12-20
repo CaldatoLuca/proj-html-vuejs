@@ -63,9 +63,10 @@ export default {
 
 <style scoped lang="scss">
 .our-services {
-  padding: 60px 0 80px 0;
+  padding: 70px 0 90px 0;
   .our-services-cards {
     margin: 100px 0 150px 0;
+
     .card {
       width: 15%;
     }

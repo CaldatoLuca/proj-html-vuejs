@@ -7,11 +7,9 @@ export default {
 <template>
   <!-- title -->
   <div class="title text-white">
-    <h1>
-      {{ text.title1 }}
-      <span class="fw-n">{{ text.title2 }}</span>
-      {{ text.title3 }}
-    </h1>
+    <h1 v-if="text.title1 !== ''">{{ text.title1 }}</h1>
+    <h1 v-if="text.title2 !== ''" class="fw-n">{{ text.title2 }}</h1>
+    <h1 v-if="text.title3 !== ''">{{ text.title3 }}</h1>
   </div>
 
   <!-- blue text -->
