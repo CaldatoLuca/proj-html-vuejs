@@ -32,6 +32,6 @@ export default {
   width: 35px;
   height: 35px;
   font-size: 15px;
-  border: none;
+  border: 0.5px solid $grey;
 }
 </style>
