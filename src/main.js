@@ -18,7 +18,8 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-library.add(faInstagram, faFacebookF, faLinkedinIn, faTwitter);
+import { faComment } from "@fortawesome/free-regular-svg-icons";
+library.add(faInstagram, faFacebookF, faLinkedinIn, faTwitter, faComment);
 
 import App from "./App.vue";
 
