@@ -1,9 +1,9 @@
 <script>
-import HeaderLogo from "./HeaderLogo.vue";
+import Logo from "./Logo.vue";
 import HeaderNav from "./HeaderNav.vue";
 export default {
   components: {
-    HeaderLogo,
+    Logo,
     HeaderNav,
   },
 };
@@ -14,7 +14,7 @@ export default {
   <header class="text-white">
     <div class="container flex align-items-center justify-content-between">
       <!-- Logo -->
-      <HeaderLogo />
+      <Logo />
 
       <!-- Nav -->
       <HeaderNav />

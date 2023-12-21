@@ -1,8 +1,10 @@
 <script>
 import FooterSubscribe from "./FooterSubscribe.vue";
+import FooterContact from "./FooterContact.vue";
 export default {
   components: {
     FooterSubscribe,
+    FooterContact,
   },
 };
 </script>
@@ -13,12 +15,8 @@ export default {
     <!-- Subscribe -->
     <FooterSubscribe />
 
-    <div>c</div>
-    <div>c</div>
-    <div>c</div>
-    <div>c</div>
-    <div>c</div>
-    <div>c</div>
+    <!-- contacts -->
+    <FooterContact />
   </footer>
 </template>
 
