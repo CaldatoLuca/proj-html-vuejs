@@ -89,7 +89,7 @@ export default {
 <style scoped lang="scss">
 @use "../assets/scss/partials/variables" as *;
 .testimonial {
-  padding: 80px 0 30px 0;
+  padding: 80px 0 130px 0;
   .section-title {
     margin-bottom: 120px;
     :deep(.third-title) {
