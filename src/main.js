@@ -14,8 +14,11 @@ import "@fontsource/heebo/400.css"; // Specify weight
 //!fontawesome
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
-library.add(faUserSecret);
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+library.add(faInstagram, faFacebookF, faLinkedinIn, faTwitter);
 
 import App from "./App.vue";
 

@@ -4,12 +4,25 @@ export default {};
 
 <template>
   <ul class="socials flex">
+    <!-- instagram -->
     <li class="text-white fw-b">
-      <font-awesome-icon icon="fa-solid fa-user-secret" />
+      <font-awesome-icon icon="fa-brands fa-instagram" />
     </li>
-    <li class="text-white fw-b">c</li>
-    <li class="text-white fw-b">c</li>
-    <li class="text-white fw-b">c</li>
+
+    <!-- linkedim -->
+    <li class="text-white fw-b">
+      <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+    </li>
+
+    <!-- facebook -->
+    <li class="text-white fw-b">
+      <font-awesome-icon icon="fa-brands fa-facebook-f" />
+    </li>
+
+    <!-- twitter -->
+    <li class="text-white fw-b">
+      <font-awesome-icon icon="fa-brands fa-twitter" />
+    </li>
   </ul>
 </template>
 
