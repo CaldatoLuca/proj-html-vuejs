@@ -5,23 +5,31 @@ export default {};
 <template>
   <ul class="socials flex">
     <!-- instagram -->
-    <li class="text-white fw-b">
-      <font-awesome-icon icon="fa-brands fa-instagram" />
+    <li class="fw-b">
+      <a href="" class="text-white">
+        <font-awesome-icon icon="fa-brands fa-instagram"
+      /></a>
     </li>
 
     <!-- linkedim -->
-    <li class="text-white fw-b">
-      <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+    <li class="fw-b">
+      <a href="" class="text-white">
+        <font-awesome-icon icon="fa-brands fa-linkedin-in"
+      /></a>
     </li>
 
     <!-- facebook -->
-    <li class="text-white fw-b">
-      <font-awesome-icon icon="fa-brands fa-facebook-f" />
+    <li class="fw-b">
+      <a href="" class="text-white">
+        <font-awesome-icon icon="fa-brands fa-facebook-f"
+      /></a>
     </li>
 
     <!-- twitter -->
-    <li class="text-white fw-b">
-      <font-awesome-icon icon="fa-brands fa-twitter" />
+    <li class="fw-b">
+      <a href="" class="text-white">
+        <font-awesome-icon icon="fa-brands fa-twitter"
+      /></a>
     </li>
   </ul>
 </template>
