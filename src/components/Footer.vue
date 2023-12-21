@@ -27,8 +27,8 @@ footer {
   background: linear-gradient(
     to top,
     $bg-blue-dark 0%,
-    $bg-blue-light 55%,
-    white 56%,
+    $bg-blue-light 70%,
+    white 71%,
     white 100%
   );
 }

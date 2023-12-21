@@ -22,10 +22,10 @@ export default {
 <style scoped lang="scss">
 @use "../assets/scss/partials/variables" as *;
 .contact-text {
-  width: 18%;
-  margin-right: 80px;
+  margin-right: 100px;
   .text {
     margin-top: 40px;
+    width: 73%;
   }
 }
 </style>

@@ -50,7 +50,7 @@ export default {
 
 <template>
   <div class="contacts">
-    <div class="container">
+    <div class="container flex">
       <!-- first component -->
       <FooterContactText :text="contactText" />
 
@@ -72,8 +72,11 @@ export default {
 .contacts {
   color: rgba(234, 234, 234, 0.6);
   margin-bottom: 70px;
-  a {
+  :deep(a) {
     color: rgba(234, 234, 234, 0.6);
+  }
+  :deep(.text-white) {
+    font-size: 20px;
   }
 }
 </style>
