@@ -2,7 +2,7 @@
 import FooterContactText from "./FooterContactText.vue";
 import FooterContactLinks from "./FooterContactLinks.vue";
 import FooterContactResources from "./FooterContactResources.vue";
-import FooterContactContactUs from "./FooterContactContactUs.vue";
+import FooterContactContactsUs from "./FooterContactContactsUs.vue";
 export default {
   data() {
     return {
@@ -43,7 +43,7 @@ export default {
     FooterContactText,
     FooterContactLinks,
     FooterContactResources,
-    FooterContactContactUs,
+    FooterContactContactsUs,
   },
 };
 </script>
@@ -61,7 +61,7 @@ export default {
       <FooterContactResources :text="contactText" />
 
       <!-- first component -->
-      <FooterContactContactUs :text="contactText" />
+      <FooterContactContactsUs :text="contactText" />
     </div>
   </div>
 </template>
