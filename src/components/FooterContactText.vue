@@ -23,9 +23,9 @@ export default {
 @use "../assets/scss/partials/variables" as *;
 .contact-text {
   width: 18%;
+  margin-right: 80px;
   .text {
     margin-top: 40px;
-    margin-right: 80px;
   }
 }
 </style>
