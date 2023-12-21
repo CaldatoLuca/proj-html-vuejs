@@ -54,14 +54,14 @@ export default {
       <!-- first component -->
       <FooterContactText :text="contactText" />
 
-      <!-- first component -->
-      <FooterContactLinks :text="contactText" />
+      <!-- second component -->
+      <FooterContactLinks :links="links" />
 
-      <!-- first component -->
-      <FooterContactResources :text="contactText" />
+      <!-- third component -->
+      <FooterContactResources :resource="resources" />
 
-      <!-- first component -->
-      <FooterContactContactsUs :text="contactText" />
+      <!-- fourth component -->
+      <FooterContactContactsUs :contactUs="contactUs" />
     </div>
   </div>
 </template>
