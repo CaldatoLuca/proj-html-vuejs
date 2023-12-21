@@ -3,7 +3,7 @@ export default {};
 </script>
 
 <template>
-  <div class="copyright">2020 Phlox. All Rights Reserved</div>
+  <div class="copyright">&#169; 2020 Phlox. All Rights Reserved</div>
 </template>
 
 <style scoped lang="scss">

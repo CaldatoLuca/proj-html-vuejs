@@ -29,5 +29,8 @@ export default {};
 <style scoped lang="scss">
 .socials {
   gap: 30px;
+  li {
+    font-size: 22px;
+  }
 }
 </style>

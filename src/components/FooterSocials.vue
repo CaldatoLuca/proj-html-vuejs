@@ -26,5 +26,6 @@ export default {
 <style scoped lang="scss">
 .footer-socials {
   padding: 40px 0 30px 0;
+  border-top: 1px solid rgba(234, 234, 234, 0.6);
 }
 </style>
