@@ -131,7 +131,7 @@ export default {
       <CommonSectionTitle :text="sectionTitle" />
 
       <!-- *Cards -->
-      <div class="price-list-cards flex justify-content-around">
+      <div class="price-list-cards flex justify-content-between">
         <MainPriceListCard v-for="card in cards" :card="card" />
       </div>
     </div>
