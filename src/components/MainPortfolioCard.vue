@@ -31,7 +31,6 @@ export default {
 @use "../assets/scss/partials/variables" as *;
 
 .card {
-  display: inline-block;
   width: 450px;
   margin: 0 50px;
   border-radius: 30px;
