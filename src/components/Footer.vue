@@ -1,10 +1,12 @@
 <script>
 import FooterSubscribe from "./FooterSubscribe.vue";
 import FooterContact from "./FooterContact.vue";
+import FooterSocials from "./FooterSocials.vue";
 export default {
   components: {
     FooterSubscribe,
     FooterContact,
+    FooterSocials,
   },
 };
 </script>
@@ -17,6 +19,9 @@ export default {
 
     <!-- contacts -->
     <FooterContact />
+
+    <!-- socials -->
+    <FooterSocials />
   </footer>
 </template>
 
