@@ -45,11 +45,11 @@ export default {
     <div class="images">
       <MainPortfolioCard v-for="card in cards" :card="card" />
     </div>
+  </div>
 
-    <!-- carousel dot position -->
-    <div class="dots flex justify-content-center">
-      <div class="dot" v-for="n in cards.length"></div>
-    </div>
+  <!-- carousel dot position -->
+  <div class="dots flex justify-content-center">
+    <div class="dot" v-for="n in cards.length"></div>
   </div>
 </template>
 
@@ -65,20 +65,20 @@ export default {
     display: block;
     width: 100%;
     background: white;
-
     margin: 0;
     white-space: nowrap;
     margin-bottom: 100px;
   }
-  .dots {
-    gap: 10px;
+}
 
-    .dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50px;
-      background-color: $grey;
-    }
+.dots {
+  gap: 10px;
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: $grey;
   }
 }
 </style>
